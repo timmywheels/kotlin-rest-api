@@ -5,7 +5,7 @@ import javax.persistence.*
 
 @Entity
 @Table(name = "USER")
-data class TestUser (
+data class User (
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         var userId: Long = -1,
